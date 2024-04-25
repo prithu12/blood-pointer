@@ -1,0 +1,52 @@
+-- import: fastn-community.github.io/footer
+-- import: fastn-community.github.io/doc-site/common
+-- import: fastn-community.github.io/roboto-typography as typo
+-- import: fastn-community.github.io/doc-site as ds
+-- import: fastn-community.github.io/midnight-storm-cs
+-- import: fastn-community.github.io/banner
+-- import: blood-compass/assets
+-- import: fifthtry.github.io/button
+-- import: fastn/processors as pr
+
+-- record result:
+string current_date:
+integer donor_count: 0
+integer users_count: 0
+integer fulfilled_requests: 0
+integer pending_requests: 0
+
+-- result r:
+$processor$: pr.http
+url: http://localhost:8000/public/v1/
+
+-- ds.page: Blood Pointer🧭
+colors: $midnight-storm-cs.main
+document-title: Blood Compass Open Data
+document-description: Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
+site-logo: $assets.files.images.blood-compass.png
+github-url: https://github.com
+github-icon: true
+site-name: NULL
+show-footer: false
+site-url: /
+logo-width: 200
+logo-height: 80
+
+
+Blood Pointer is a groundbreaking platform designed to revolutionize blood donation and recipient mapping. Our mission is simple yet profoundly impactful- connecting donors with individuals urgently in need of blood.
+
+With Blood Pointer, finding a blood donor or recipient is easier and more efficient than ever before. Our user-friendly interface allows donors to register and specify their blood type, availability, and location. Simultaneously, recipients can search for donors based on their specific requirements and reach out in times of need.
+
+
+
+-- button.button: Join us
+role: tertiary
+large: true
+link: http://localhost:5173/
+
+-- ftd.image:
+src: $assets.files.images.banner.png
+width: fill-container
+
+
+-- end: ds.page

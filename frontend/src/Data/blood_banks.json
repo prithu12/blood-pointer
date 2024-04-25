@@ -1,0 +1,59 @@
+{
+    "blood_banks": [
+      {
+        "name": "Fortis Hospitals",
+        "address": "A Block, Piyakad Road, New Delhi, Delhi 110088",
+        "phone": "08479919177",
+        "latitude": 28.709202,
+        "longitude": 77.170222,
+        "blood": ["A+", "B+", "O+", "AB+"]
+      },
+      {
+        "name": "Hindu Rao Hospital",
+        "address": "M6G6+7RC, Kamla Nehru Ridge, Civil Lines, New Delhi, Delhi, 110007",
+        "phone": "08479919177",
+        "latitude": 28.6756974,
+        "longitude": 77.0960858,
+        "blood": ["A+", "B+", "O+", "AB+"]
+      },
+      {
+        "name": "Blood Bank, LNJP Hospital",
+        "address": "M6G6+7RC, Kamla Nehru Ridge, Civil Lines, New Delhi, Delhi, 110007",
+        "phone": "08479919177",
+        "latitude": 28.6391315,
+        "longitude": 77.234162,
+        "blood": ["A+", "B+", "O+", "AB+"]
+      },
+      {
+        "name": "Blood Bank, LNJP Hospital",
+        "address": "J6QP+MM5, Maulana Azad Medical College Campus, LNJP Colony, New Delhi, Delhi, 110002",
+        "phone": "03322041233",
+        "latitude": 28.6875239,
+        "longitude": 77.0745169,
+        "blood": ["A-", "O-", "AB-"]
+      },
+      {
+        "name": "Blood Bank, LNJP Hospital",
+        "address": "J6QP+MM5, Maulana Azad Medical College Campus, LNJP Colony, New Delhi, Delhi, 110002",
+        "phone": "03322041233",
+        "latitude": 28.6875239,
+        "longitude": 77.0745169,
+        "blood": ["A-", "O-", "AB-"]
+      }, {
+        "name": "Delhi Heart And Lung Institute",
+        "address": "Delhi Heart And Lung Institute, 3, Panchkuian Marg, Type 4, Block B, Aram Bagh, Jhandewalan, New Delhi, Delhi",
+        "phone": "03322041233",
+        "latitude": 28.637760,
+        "longitude": 77.208855,
+        "blood": ["A-", "O-", "AB-"]
+      },{
+        "name": "Delhi Heart And Lung Institute",
+        "address": "Delhi Heart And Lung Institute, 3, Panchkuian Marg, Type 4, Block B, Aram Bagh, Jhandewalan, New Delhi, Delhi",
+        "phone": "03322041233",
+        "latitude": 28.653591,
+        "longitude": 77.158051,
+        "blood": ["A-", "O-", "AB-"]
+      }
+    ]
+  }
+  
